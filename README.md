@@ -1,7 +1,7 @@
 # wbs_cookbook
 cookbook exercise - collaboration, bootstrap, html, css and intro to JavaScript
 
-Assests will evenutally be below:
+Assets will be added below:
 
 colour swatches:
 
