@@ -1,0 +1,22 @@
+/* === Reset === */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Global === */
+
+body{
+  display: flex;
+}
+
+
+/* === TO BE DELETED === */
+div{
+  border: 1px solid tomato;
+}
+.receipe-img{
+  border: 1px solid black;
+  height: 500px;
+}
