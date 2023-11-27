@@ -1,5 +1,5 @@
 # wbs_cookbook
-cookbook exercise - teamwork, bootstrap, html, css and intro to JavaScript
+cookbook exercise - collaboration, bootstrap, html, css and intro to JavaScript
 
 Assests will evenutally be below:
 
