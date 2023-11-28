@@ -17,3 +17,38 @@ div{
   border: 1px solid black;
   height: 500px;
 }
+
+
+/* === RECIPES === */
+.receipe__header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.receipe__img-container{
+  position: relative;
+}
+
+.receipe__img-label {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  opacity: .3;
+  background-color: #e0dad9;
+  width: 100%;
+  height: 5em;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+.receipe__img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+.receipe__start{
+  border-bottom: 2px solid #e0dad9;
+}
