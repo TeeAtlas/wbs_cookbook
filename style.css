@@ -20,7 +20,7 @@ a {
 }
 
 /* === RECIPES === */
-.receipe__header{
+.header{
   display: flex;
   justify-content: start;
   align-items: center;
