@@ -19,10 +19,6 @@ a {
   src: url('fonts/Quesha.ttf') format('truetype');
 }
 
-/* === TO BE DELETED === */
-
-
-
 /* === RECIPES === */
 .receipe__header{
   display: flex;
@@ -97,106 +93,6 @@ table, th, td {
   border: none;
 }
 
-td:nth-child(even){
-  background-color: black;
-}/* === Reset === */
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* === Global === */
-/* 
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('path/to/your/font.ttf');
+/* .table tr:nth-child(even) td {
+  background-color:rgba(224, 218, 217,.5);
 } */
-
-
-a {
-  color: inherit;
-}
-
-
-/* === TO BE DELETED === */
-
-
-
-/* === RECIPES === */
-.header{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1em;
-}
-
-.receipe-h1{
-  color: #619a64;
-}
-
-.receipe__stars,
-.receipe__review,
-.receipe__level{
-  font-size: .8rem;
-}
-
-.receipe__review{
-  color: tomato;
-}
-
-.receipe__img-container{
-  position: relative;
-}
-
-.receipe__label-container{
-  height: 80%;
-}
-
-
-.receipe__img-label {
-  position: absolute;
-  display: block;
-  bottom: 0;
-  background-color: rgba(224, 218, 217, .5);
-  width: 100%;
-  height: 20%;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
-}
-
-.receipe__img-label span{
-  font-size:clamp(.3rem ,2vw, 2rem);
-  color: black;
-}
-
-.receipe__img{
-  width: 100%;
-  object-fit: cover;
-  border-radius: 3%;
-}
-
-.receipe__start{
-  border-bottom: 2px solid #e0dad9;
-}
-
-.wrapper{
-  padding: 0 1rem;
-}
-
-#shopping-list{
-  background-color: black;
-  color: white;
-  padding: .5em 1em 1em 1em;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-table, th, td {
-  border: none;
-}
-
-td:nth-child(even){
-  background-color: black;
-}
