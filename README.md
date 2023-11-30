@@ -60,5 +60,3 @@ maxiized card heading - Quesha 11px Regular
 
 icon = sf pro text medium 10px
 
-
-

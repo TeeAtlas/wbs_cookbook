@@ -6,6 +6,13 @@
 }
 
 /* === Global === */
+/* 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('path/to/your/font.ttf');
+} */
+
+
 a {
   color: inherit;
 }
