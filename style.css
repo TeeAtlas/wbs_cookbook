@@ -5,14 +5,18 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'quesha', sans-serif;
+}
+
 /* === Global === */
 a {
   color: inherit;
 }
 
 @font-face {
-  font-family: 'MyWebFont';
-  src: url('path/to/your/font.ttf');
+  font-family: 'quesha';
+  src: url('fonts/Quesha.ttf') format('truetype');
 }
 
 /* === TO BE DELETED === */
