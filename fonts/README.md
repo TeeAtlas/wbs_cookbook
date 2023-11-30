@@ -1,27 +1,9 @@
-# wbs_cookbook
-cookbook exercise - teamwork, bootstrap, html, css and intro to JavaScript
-
-Assests will evenutally be below:
-
-colour swatches:
-
-red = #E31F29
-
-green = #619A64
-
-black = #141414
-
-pink = #E0736F
-
-light blue = #325683
-
-dark blue = #163862
-
-
 Three Main Fonts:
 Quesha - in font folder
 
-SFPro text - in font folder
+SFPro text - 
+<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+                
 
 objectiv MK1 -
 <link rel="stylesheet" href="https://use.typekit.net/zil2kwh.css">
@@ -59,6 +41,3 @@ minimized card heading - Quesha 11px Regular
 maxiized card heading - Quesha 11px Regular
 
 icon = sf pro text medium 10px
-
-
-
