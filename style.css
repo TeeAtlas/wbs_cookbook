@@ -6,6 +6,9 @@
 }
 
 /* === Global === */
+a {
+  color: inherit;
+}
 
 @font-face {
   font-family: 'MyWebFont';
@@ -13,13 +16,7 @@
 }
 
 /* === TO BE DELETED === */
-div{
-  border: 1px solid tomato;
-}
-.receipe-img{
-  border: 1px solid black;
-  height: 500px;
-}
+
 
 
 /* === RECIPES === */
@@ -28,22 +25,46 @@ div{
   justify-content: start;
   align-items: center;
   gap: 1rem;
+  margin-top: 1em;
+}
+
+.receipe-h1{
+  color: #619a64;
+}
+
+.receipe__stars,
+.receipe__review,
+.receipe__level{
+  font-size: .8rem;
+}
+
+.receipe__review{
+  color: tomato;
 }
 
 .receipe__img-container{
   position: relative;
 }
 
+.receipe__label-container{
+  height: 80%;
+}
+
+
 .receipe__img-label {
   position: absolute;
   display: block;
   bottom: 0;
-  opacity: .3;
-  background-color: #e0dad9;
+  background-color: rgba(224, 218, 217, .5);
   width: 100%;
-  height: 5em;
+  height: 20%;
   border-bottom-left-radius: 3%;
   border-bottom-right-radius: 3%;
+}
+
+.receipe__img-label span{
+  font-size:clamp(.3rem ,2vw, 2rem);
+  color: black;
 }
 
 .receipe__img{
@@ -54,4 +75,24 @@ div{
 
 .receipe__start{
   border-bottom: 2px solid #e0dad9;
+}
+
+.wrapper{
+  padding: 0 1rem;
+}
+
+#shopping-list{
+  background-color: black;
+  color: white;
+  padding: .5em 1em 1em 1em;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+table, th, td {
+  border: none;
+}
+
+td:nth-child(even){
+  background-color: black;
 }
