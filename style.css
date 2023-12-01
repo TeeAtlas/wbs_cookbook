@@ -129,6 +129,15 @@ form{
 
 /* stying for landing */
 
+.container h1 {
+  font-size: 45px;
+  margin: 0 0 0;
+}
+
+.container h2{
+  font-size: 30px;
+  margin: 0 0 12px;
+}
 
 /* styling for carousel */
 
@@ -152,3 +161,16 @@ form{
   margin-bottom: 20px;
 }
 
+.card-section underline {
+  border-bottom: 1px black;
+}
+
+.card-section h3 {
+  font-size: 25px;
+  border-bottom: 1px black;
+}
+
+.container.carousel h5 {
+  font-size: 20px;
+  margin: 0 0 0;
+}
