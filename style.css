@@ -35,7 +35,7 @@ a {
 .receipe__stars,
 .receipe__review,
 .receipe__level{
-  font-size: .8rem;
+  font-size: clamp(.8rem, 2vw, 1.5rem);
 }
 
 .receipe__review{
@@ -44,6 +44,9 @@ a {
 
 .receipe__img-container{
   position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1em;
 }
 
 .receipe__label-container{
@@ -54,12 +57,12 @@ a {
 .receipe__img-label {
   position: absolute;
   display: block;
-  bottom: 0;
+  bottom: 1em;
   background-color: rgba(224, 218, 217, .5);
   width: 100%;
   height: 20%;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .receipe__img-label span{
@@ -69,8 +72,9 @@ a {
 
 .receipe__img{
   width: 100%;
-  object-fit: cover;
-  border-radius: 3%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
 }
 
 .receipe__start{
@@ -91,6 +95,10 @@ a {
 
 table, th, td {
   border: none;
+}
+
+form{
+  padding-bottom: 2rem;
 }
 
 /* .table tr:nth-child(even) td {
