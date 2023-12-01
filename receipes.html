@@ -10,6 +10,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Cookbook</title>
   </head>
@@ -71,7 +78,9 @@
               <td id="olieve oil">100ml olive oil, plus extra for greasing</td>
             </tr>
             <tr>
-              <td id="asparagus">250g asparagus spears, each cut into 3 pieces</td>
+              <td id="asparagus">
+                250g asparagus spears, each cut into 3 pieces
+              </td>
             </tr>
             <tr>
               <td id="self-raising flour">200g self-raising flour</td>
@@ -121,44 +130,19 @@
       <div class="row">
         <form>
           <p id="shopping-list">Create shopping list</p>
-          <div class="col-12 wrapper">
-            <label class="col-10" for="olive">olieve oil</label>
-            <input
-              class="col-1"
-              type="checkbox"
-              id="olive"
-              name="shopping-list"
-            />
-          </div>
-          <div class="col-12 wrapper">
-            <label class="col-10" for="tomato">tomato</label>
-            <input
-              class="col-1"
-              type="checkbox"
-              id="tomato"
-              name="shopping-list"
-            />
-          </div>
-          <div class="col-12 wrapper">
-            <label class="col-10" for="asparagus">Asparagus</label>
-            <input
-              class="col-1"
-              type="checkbox"
-              id="asparagus"
-              name="shopping-list"
-            />
-          </div>
-          <div class="col-12 wrapper">
-            <label class="col-10" for="black-olieve">Black Olieves</label>
-            <input
-              class="col-1"
-              type="checkbox"
-              id="black-olieves"
-              name="shopping-list"
-            />
+          <div class="shopping-list-container">
+            <!-- Shoppinglist comes here  -->
           </div>
         </form>
+        <div class="input-field">
+          <label for="shopping-list-input">Please input an item.</label>
+          <input
+            id="shopping-list-input"
+            type="text"
+            placeholder="Olive oil">
+        </div>
       </div>
+      <div class="row">
     </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -175,5 +159,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js" type="module"></script>
   </body>
 </html>
