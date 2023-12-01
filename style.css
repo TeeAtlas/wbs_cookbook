@@ -107,28 +107,9 @@ table, th, td {
 /* styling for carousel */
 
 /* aligns items in a row and hide overflow */
-.carousel-inner {
+/* .carousel-inner {
  
 }
 
-
-.carousel-item {
-  width: 100%;
-  flex: 0 0 33.333%; //adjust for number of images
-}
-
-
-/* creates a rounded corners */
-.carousel-img_1, .carousel-img_2, .carousel-img_3 {
-  border-radius: 3%;
-  text-align: left;
-  padding: 15%;
-}
-
-
-/* increases size of active item to make it larger */
-.carousel-item.active {
-  flex: 0 0 50%;
-}
 
 
