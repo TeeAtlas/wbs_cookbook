@@ -16,9 +16,30 @@ render()
 //   }
 // )
 
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const roastImage = document.getElementById("roast");
+
+        roastImage.addEventListener('click', () => {
+            window.location.href = "http://127.0.0.1:5500/wbs_cookbook/receipes.html";
+        });
+    });
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+        const redirectBtn = document.getElementById("chefVideosSection");
+
+            redirectBtn.addEventListener('click', () => {
+                window.location.href = "https://www.youtube.com/watch?v=UsD1MhKBmD4&t=232s";
+    
+    });
+
+      
 // This function is to go back to landingPage
 const goBackHome = () => {
   window.location.href = './landing.html';
 };
 
 backHome.addEventListener('click', goBackHome);
+

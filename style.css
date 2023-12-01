@@ -144,7 +144,7 @@ form{
   margin: 0 0 0;
 }
 
-.container h2{
+.container h2 {
   font-size: 30px;
   margin: 0 0 12px;
 }
@@ -163,24 +163,46 @@ form{
 }
   
 .card-container {
-  padding-top: 20px; 
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .card-section {
   margin-bottom: 20px;
 }
 
-.card-section underline {
-  border-bottom: 1px black;
-}
-
 .card-section h3 {
-  font-size: 25px;
-  border-bottom: 1px black;
+  font-size: 20px;
+  border-bottom: 0.25px solid black;
+  margin-bottom: 0;
 }
 
+.card-section img {
+  padding-top: 7px;
+}
 .container.carousel h5 {
   font-size: 20px;
   margin: 0 0 0;
+}
+
+.footer {
+  height: 50px;
+}
+
+
+
+/* media queries for mobile */
+/* Media query for screens with a maximum width of 767px (typical mobile devices) */
+@media (max-width: 767px) {
+  .footer {
+    height: 50px; /* Set the height to 10px for mobile view */
+  }
+}
+
+
+/* for tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    height: 20px; /* Set the height to 20px for tablet view */
+  }
 }
