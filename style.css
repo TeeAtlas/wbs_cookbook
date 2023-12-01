@@ -7,6 +7,7 @@
 
 body{
   font-family: 'quesha', sans-serif;
+
 }
 
 /* === Global === */
@@ -112,12 +113,12 @@ form{
 /* stying for landing */
 
 
-/* styling for carousel */
-
-/* aligns items in a row and hide overflow */
-/* .carousel-inner {
- 
+.card-container {
+  padding-top: 20px; 
+  padding-bottom: 100px;
 }
 
-
+.card-section {
+  margin-bottom: 20px;
+}
 
