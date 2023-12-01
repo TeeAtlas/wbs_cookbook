@@ -92,6 +92,11 @@ a {
   border-bottom: 2px solid #e0dad9;
 }
 
+.receipe__start h2{
+  font-family: mk1;
+}
+
+
 .wrapper{
   padding: 0 1rem;
 }
