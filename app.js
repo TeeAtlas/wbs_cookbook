@@ -1,5 +1,6 @@
 import { getShoppingList } from './shoppingList.js';
 const shoppingList = document.querySelector('.shopping-list-container');
+const backHome = document.querySelector('#back-to-home');
 
 const render = () =>
  shoppingList.innerHTML = getShoppingList();
@@ -14,10 +15,6 @@ render()
 //     inputField.style.display = 'flex';
 //   }
 // )
-
-
-// links addes to landing html
-
 
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -37,3 +34,12 @@ render()
                 window.location.href = "https://www.youtube.com/watch?v=UsD1MhKBmD4&t=232s";
     
     });
+
+      
+// This function is to go back to landingPage
+const goBackHome = () => {
+  window.location.href = './landing.html';
+};
+
+backHome.addEventListener('click', goBackHome);
+
