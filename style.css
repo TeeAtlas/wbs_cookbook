@@ -106,9 +106,26 @@ form{
   background-color:rgba(224, 218, 217,.5);
 } */
 
+.icon-holder{
+  display: flex;
+  justify-content: flex-end;
+}
 
+.fa-plus{
+  font-size: 1.2rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
 
-
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  display: none;
+}
 
 /* stying for landing */
 
@@ -122,6 +139,19 @@ form{
   margin: 0 0 12px;
 }
 
+/* styling for carousel */
+
+/* aligns items in a row and hide overflow */
+/* .carousel-inner {
+ 
+} */
+
+
+.carousel-item {
+  width: 100%;
+  flex: 0 0 33.333%;
+}
+  
 .card-container {
   padding-top: 20px;
   padding-bottom: 50px;
