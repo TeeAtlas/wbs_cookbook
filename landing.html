@@ -10,7 +10,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Cookbook</title>
   </head>
@@ -19,18 +18,19 @@
   
   <!-- header and -->
   <body>	
-    <div class="container">
-      <header>
-		<div class="row">
-			<div class="col-12 header">
-				<p><</p>
-				<h1 class="receipe-h1">Hello Subaru!</h1>
-			 	</div>
-			
-			
-			<div>
-				<div class="col-12">
-					<h2>What would youlike to cook today</h2>
+	  <header>
+		  	<div class="container">
+			  	<div class="row">
+					<div class="col-12 header">
+						<p><</p>
+						<h1 class="receipe-h1">Hello Subaru!</h1>
+					</div>
+				
+				
+					<div>
+						<div class="col-12">
+						<h2>What would youlike to cook today</h2>
+					</div>
 				</div>
 			</div>
 	  </header>
@@ -39,88 +39,98 @@
 		
 		<!-- carousel section -->
         
-        <section class="col-md-12">
-			
-			<div class="row">
-				<div class="col-12">
-					<h3>New , Just for You...	</h3>
-				</div>
-			</div>
-
-<!-- carousel -->
-
-			<div id="carouselExample" class="carousel slide">
-				<div class="carousel-inner">
-				<div class="carousel-item">
-					<div class="carousel_img_1">
-						<img src="./images/mattyMatheson.jpg" class="d-block w-100" alt="matty-matheson">
+		
+		<!-- carousel -->
+		
+		<div class="container carousel">
+				<section class="col-md-12">
+					
+					<div class="row">
+						<div class="col-12">
+							<h3>New , Just for You...	</h3>
+						</div>
+					</div>
+				<div id="carouselExample" class="carousel slide">
+					<div class="carousel-inner">
+					<div class="carousel-item">
+						<img src="./images/mattyMatheson.jpg" class="d-block w-100" alt="...">
 						<h5>Matty Matheson</h5>
 						<p>Celebrity chef tells all.</p>
 					</div>
-				</div>
-				<div class="carousel-item active">
-					<div class="carousel_img_2">
-						<img src="./images/vegetarianNutRoast.jpg" class="d-block w-100" alt="nut__roast">
+					<div class="carousel-item active">
+						<img src="./images/vegetarianNutRoast.jpg" class="d-block w-100" alt="nut__roast" >
 						<h5>Vegetarian Nut Loaf</h5>
 						<p class="stars">★★★★★</p>
 					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="carousel_img_3">
-						<img src="./images/holidayCooking.jpg" class="d-block w-100" alt="holiday-cooking">
+					<div class="carousel-item">
+						<img src="./images/holidayCooking.jpg" class="d-block w-100" alt="...">
 						<h5>Bake with the Kids</h5>
 						<p>Twenty holiday recipes for the whole family!</p>
 					</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+					</button>
 				</div>
-
-
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-				</button>
 			</div>
+				
 				
 <!-- card for site navigation -->
 <!-- first section -->
-          <div class="row">
-            <div class="col-6">
-				<h3>Recipes</h3>
-				<img src="./images/recipeBox.jpg" alt="recipe-box">
-            </div>
+        <div class="container card-container">
 
-            <div class="col-6">
-				<h3>Articles</h3>
-				<img src="./images/article.jpg" alt="article">
-            </div>
-          </div>
-
-<!-- second section -->
-		  <div class="row">
-            <div class="col-6">
-				<h3>Chefs Videos</h3>
-				<img src="#" alt="Placeholder Image 1">
-				PLACEHOLDER FOR IMAGE
-            </div>
-
-            <div class="col-6">
-				<h3>Cook With The Kids</h3>
-				<img src="#" alt="Placeholder Image 2">
-				PLACEHOLDER FOR IMAGE
-            </div>
-          </div>
-
-		  <div class="footer">
+		  <div class="row card-section">
 
 
-		  </div>
+			<!-- card 1 -->
+			  <div class="col-6">
+					<h3>Recipes</h3>
+					<img src="./images/recipeBox.jpg" class="card img-fluid" alt="recipe-box">
+			  </div>
+			  
+			  <div class="col-6">
+					<h3>Articles</h3>
+					<img src="./images/article.jpg" class="card img-fluid alt="article">
+			  </div>
+			</div>
+			
+			<!-- second section -->
+			<div class="row card-section">
+			  <div class="col-6">
+							<h3>Chef's Videos</h3>
+							<img src="./images/chefVideo.jpg" class="card img-fluid  alt="chef-video">
+			  </div>
 
+			  <div class="col-6">
+							<h3>Cook With The Kids</h3>
+							<img src="./images/kidsCooking.jpg" class="card img-fluid" alt="kids-cooking">
+			  </div>
+			</div>
 
-<!-- fixed navbar -->
+			<!-- second section -->
+			<div class="row card-section">
+				<div class="col-6">
+							  <h3>Chef's Videos</h3>
+							  <img src="./images/chefVideo.jpg" class="card img-fluid  alt="chef-video">
+				</div>
+  
+				<div class="col-6">
+							  <h3>Cook With The Kids</h3>
+							  <img src="./images/kidsCooking.jpg" class="card img-fluid" alt="kids-cooking">
+				</div>
+			  </div>
+			
+		</div>
+		
+		
+		
+		<!-- fixed navbar -->
+		<div class="footer fixed-bottom bg-white">
 		  <div class="row">
 			<div class="footer">
 				<nav class="navbar">
