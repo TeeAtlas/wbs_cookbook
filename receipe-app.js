@@ -19,7 +19,7 @@ render()
 
 // This function is to go back to landingPage
 const goBackHome = () => {
-  window.location.href = './landing.html';
+  window.location.href = './index.html';
 };
 
 backHome.addEventListener('click', goBackHome); 
